@@ -1,7 +1,7 @@
 
 /*********************************************************************************************************/
 /*
-Team Members:		 Julia Thee, Derek Janzen and Kenneth Smith
+Team Members:		 Julia Thee, Derek Janzen, Jess Lembke and Kenneth Smith
 Course:				 CIS 687 -  Object Oriented Design
 Assignment:			 CIS 687 Homework 1
 Instructor:			 Professor Scott Roueche

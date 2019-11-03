@@ -7,6 +7,7 @@
 #define MATHLIBRARY_API __declspec(dllimport)
 #endif
 
+#pragma region Microsoft_Fibonacci_Test
 /*
 	ksnote: The following code section is from:
 	"Microsoft Development Center"
@@ -37,7 +38,9 @@ extern "C" MATHLIBRARY_API unsigned long long fibonacci_current();
 
 // Get the position of the current value in the sequence.
 extern "C" MATHLIBRARY_API unsigned fibonacci_index();
+#pragma endregion Microsoft_Fibonacci_Test
 
+#pragma region Code_From_The_Professor
 /***************************************/
 /*
 	ksnote: The following code section is from the professor
@@ -46,3 +49,4 @@ extern "C" MATHLIBRARY_API unsigned fibonacci_index();
 extern "C" MATHLIBRARY_API double Add(double a, double b);
 extern "C" MATHLIBRARY_API double Multiply(double a, double b);
 extern "C" MATHLIBRARY_API double AddMultiply(double a, double b);
+#pragma endregion Code_From_The_Professor

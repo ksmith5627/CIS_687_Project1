@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29403.142
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestHarness", "TestHarness.vcxproj", "{1B85F6A7-62BA-4935-8849-7F81DEC863B7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B8EDA203-7440-44DB-B981-507A45FFFD05} = {B8EDA203-7440-44DB-B981-507A45FFFD05}
+		{E3A7A444-FCA0-450A-BE3D-93E81A34A33B} = {E3A7A444-FCA0-450A-BE3D-93E81A34A33B}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLibrary", "..\MathLibrary\MathLibrary.vcxproj", "{E3A7A444-FCA0-450A-BE3D-93E81A34A33B}"
 EndProject

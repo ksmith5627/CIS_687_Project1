@@ -46,12 +46,12 @@ public:
 
 		return testObjects;
 	}
-	// ksnote  -  Possibly Remove Below
+	// ksnote - Retrieve test driver DLL
 	std::string GetTestDriver()
 	{
 		return TestDriver;
 	}
-	// ksnote  -  Possibly Remove Below
+	// ksnote - Retrieve Test details 
 	std::list<std::string> GetTestedCodes()
 	{
 		return TestedCodes;

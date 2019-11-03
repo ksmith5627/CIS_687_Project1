@@ -5,6 +5,7 @@
 #include "MathLibrary.h"
 #include "framework.h" // ksnote -  use with the Professors code
 
+#pragma region Microsoft_Fibonacci_Test
 // DLL internal state variables:
 static unsigned long long previous_;  // Previous value, if any
 static unsigned long long current_;   // Current sequence value
@@ -56,9 +57,14 @@ unsigned fibonacci_index()
 	return index_;
 }
 
+#pragma endregion Microsoft_Fibonacci_Test
+
+#pragma region Code_From_The_Professor
 /*
 	ksnote: The following code section is from the professor
 */
 MATHLIBRARY_API double Add(double a, double b) { return a + b; }
 MATHLIBRARY_API double Multiply(double a, double b) { return a * b; }
 MATHLIBRARY_API double AddMultiply(double a, double b) { return a + (a * b); }
+
+#pragma endregion Code_From_The_Professor

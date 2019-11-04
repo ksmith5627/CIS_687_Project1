@@ -1,4 +1,18 @@
-// MathLibrary.cpp : Defines the exported functions for the DLL.
+
+/*********************************************************************************************************/
+/*
+Team Members:		Julia Thee, Derek Janzen, Jess Lembke and Kenneth Smith
+Course:				CIS 687 -  Object Oriented Design
+Assignment:			CIS 687 Homework 2
+Instructor:			Professor Scott Roueche
+
+					College of Engineering & Computer Science
+					Syracuse University
+
+File Description:	ArithmeticTestLibrary.cpp : Defines the exported functions for the DLL.
+*/
+/*********************************************************************************************************/
+
 #include "pch.h" // use stdafx.h in Visual Studio 2017 and earlier
 #include <utility>
 #include <limits.h>

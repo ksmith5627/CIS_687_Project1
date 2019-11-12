@@ -24,13 +24,12 @@ Instructor:			Professor Scott Roueche
 
 #include <string>
 
-
 class Vehicle
 {
 public:
 	virtual ~Vehicle() {}
-	//virtual std::string ModeOfSteering() = 0;
-	//virtual std::string PowerSource() = 0;
+	virtual std::string ModeOfSteering() = 0;
+	virtual std::string PowerSource() = 0;
 	virtual bool LicenseRequiredToDrive() = 0;
 	virtual int NumberOfWheels() = 0;
 };

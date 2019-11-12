@@ -21,12 +21,11 @@ Instructor:			Professor Scott Roueche
 #ifndef TEST_H
 #define TEST_H
 
-
 class ITest
 {
 public:
 	virtual ~ITest() {}
-	virtual int Test() = 0;
+	virtual bool Test() = 0;
 };
 
 #endif // !TEST_H

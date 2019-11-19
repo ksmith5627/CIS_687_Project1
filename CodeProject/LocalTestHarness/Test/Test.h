@@ -26,7 +26,7 @@ class ITest
 {
 public:
 	virtual ~ITest() {}
-	virtual int Test() = 0;
+	virtual bool Test() = 0;
 };
 
 #endif // !TEST_H

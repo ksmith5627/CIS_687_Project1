@@ -1,7 +1,8 @@
+
 /*
 Team Members:		Julia Thee, Derek Janzen, Jess Lembke and Kenneth Smith
 Course:				CIS 687 -  Object Oriented Design
-Assignment:			CIS 687 Homework 2
+Assignment:			CIS 687 Homework 3
 Instructor:			Professor Scott Roueche
 
 					College of Engineering & Computer Science
@@ -21,12 +22,12 @@ Instructor:			Professor Scott Roueche
 #ifndef TEST_H
 #define TEST_H
 
-
 class ITest
 {
 public:
 	virtual ~ITest() {}
 	virtual bool Test() = 0;
+	virtual void LoadDLL(const char*, const char*) = 0;
 };
 
 #endif // !TEST_H

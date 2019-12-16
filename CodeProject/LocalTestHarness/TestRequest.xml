@@ -1,8 +1,0 @@
-<Tests>
-    <TestDrivers>
-      <count>2</count>
-      <item_version>0</item_version>
-      <item>Vehicle.dll</item>
-      <item>Shape.dll</item>
-    </TestDrivers>
-</Tests>
